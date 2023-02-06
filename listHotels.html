@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./lib/css/animation.css">
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid1">
+            <div class="header-main">
+                <div class="header-top">
+                    <div class="header-top__official official">
+                        <span class="official__subtitle"> Trang web chính thức</span>
+                        <h1 class="official__title"> A&amp;EM Hotel Group ở Việt Nam</h1>
+                    </div>
+                    <div class="header-top__right">
+                        <div class="header-booking">
+                            <a href="" class="booking-link">Đặt phòng của tôi</a>
+                        </div>
+                        <div class="header-language">
+                            <button class="language-dropdown dropdown__link" id="js-dropdown">vi</button>
+                            <ul class="language-list dropdown__list">
+                                <li class="language-item">
+                                    <a href="" class="language-link active">
+                                        Tiếng việt
+                                    </a>
+                                </li>
+                                <li class="language-item">
+                                    <a href="" class="language-link">
+                                        English
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-logo">
+                        <a href="./index.html">
+                            <img src="./images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header-navbar navbar">
+                        <div class="navbar__bar">
+                            <i class="fa-sharp fa-light fa-bars"></i>
+                        </div>
+                        <div class="navbar__content">
+                            <div class="navbar__content-close">
+                                <div class="navbar__content-close-inner">
+                                    <i class="fa-sharp fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                            <ul class="navbar__content-list">
+                                <li class="navbar-item">
+                                    <a href="" class="navbar-link">Ưu đãi</a>
+                                </li>
+                                <li class="navbar-item has-dropdown">
+                                    <a href="./listHotels.html" class="navbar-link dropdown">Nhiều khách sạn
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="navbar-list__dropdown dropdown-menu">
+                                        <li class="navbar-list__dropdown-item">
+                                            <a href="./detailHotels.html" class="navbar-list__dropdown-link">
+                                                Khách sạn A&EM Saigon
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list__dropdown-item">
+                                            <a href="./detailHotels.html" class="navbar-list__dropdown-link">
+                                                Khách sạn A&EM Art
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list__dropdown-item">
+                                            <a href="./detailHotels.html" class="navbar-list__dropdown-link">
+                                                A&EM Hotel & Spa
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-item has-dropdown">
+                                    <a href="./restaurant.html" class="navbar-link dropdown">Ăn
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="navbar-list__dropdown dropdown-menu">
+                                        <li class="navbar-list__dropdown-item">
+                                            <a href="./restaurant-detail.html" class="navbar-list__dropdown-link">
+                                                Lamenda Café & Nhà Hàng
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list__dropdown-item">
+                                            <a href="" class="navbar-list__dropdown-link">
+                                                Thanh Rooftop
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="navbar-item has-dropdown">
+                                    <a href="./spa.html" class="navbar-link dropdown">Spa
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="navbar-list__dropdown dropdown-menu">
+                                        <li class="navbar-list__dropdown-item">
+                                            <a href="./spa-detail.html" class="navbar-list__dropdown-link">
+                                                Violet Spa
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="./thingstodo.html" class="navbar-link dropdown">Những việc cần làm</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="./contact.html" class="navbar-link dropdown">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main__banner">
+        <div class="banner__image">
+            <img src="./images/banner.jpg" alt="">
+        </div>
+    </div>
+    <section class="navigator">
+        <div class="navigator-container">
+            <div class="navigator-logo">
+                <img src="./images/a-em-logo-sticky.png" alt="" class="logo__img">
+            </div>
+            <div class="engine-button">
+                <button class="engine-button__link btn-wrap">
+                    Đặt phòng ngay
+                </button>
+            </div>
+            <div class="booking-room">
+                <div class="booking-room__inner">
+                    <form action="" class="search__form">
+                        <div class="form-group search--destination">
+                            <select name="" id="">
+                                    <option value="">
+                                        Chọn khách sạn
+                                    </option>
+                                    <option value="todos" data-value="todos">
+                                            Tất cả các khách sạn
+                                    </option>
+                                    <option data-value="cornersaigonhotel" value=" Khách sạn A&EM Saigon">
+                                            Khách sạn A&EM Saigon
+                                    </option>
+                                    <option data-value="aemarthotel" value=" Khách sạn A&EM Art">
+                                        Khách sạn A&EM Art
+                                    </option>
+                                </select>
+                        </div>
+                        <div class="form-group has-datepicker">
+                            <span class="item-pickdate">
+                                <label for="">Nhận phòng</label>
+                                <input type="text" class="in-date" placeholder="1/2/2023">
+                            </span>
+                            <span class="icons-chevo">
+                                <i class="fa-regular fa-chevron-right"></i>
+                            </span>
+                            <span class="item-pickdate">
+                                <label for="">Trả phòng</label>
+                                <input type="text" class="out-date" placeholder="2/2/2023">
+                            </span>
+                        </div>
+                        <div class="form-group occupancy d-none">
+                            <i class="fa-solid fa-user"></i>
+                            <select name="" id="">
+                                <option value="">0</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                            <i class="fa-solid fa-child"></i>
+                            <select name="" id="">
+                                <option value="">0</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                        <div class="form-group promotion">
+                            <input type="text" placeholder="Mã khuyến mãi">
+                        </div>
+                        <div class="form-group form-btn">
+                            <button type="submit" class="search-btn">Tìm</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--path-->
+    <div class="path">
+        <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Nhiều khách sạn</a></li>
+        </ul>
+    </div>
+    <!--end path-->
+
+    <!--heading offers-->
+    <div class="heading__offers">
+        <div class="m_width">
+            <h3>A&EM HOTELS</h3>
+            <h2>KHÁCH SẠN CỦA CHÚNG TÔI</h2>
+            <p>
+                Khám phá tất cả những ưu đãi tại A&EM Hotels và tận hưởng chuyến du lịch đến Thành phố Hồ Chí Minh với mức giá cạnh tranh nhất. Từ mức giá đặc biệt, ưu đãi hấp dẫn và khuyến mãi không tưởng, hãy chọn ưu đãi hoàn hảo cho nhu cầu du lịch của bạn.
+            </p>
+        </div>
+    </div>
+    <!--end heading offers-->
+
+    <!--hotels-->
+    <div class="hotels">
+        <div class="container">
+            <div class="main__offers">
+                <div class="grid__offer m_width">
+                    <div class="list__offers">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers__image">
+                                    <img src="./images/offers-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 hotels__des">
+                                <div class="offers__des">
+                                    <h3>KHÁCH SẠN A&EM SAIGON</h3>
+                                    <p>Khách sạn 4 sao trang nhã tại thành phố này phục vụ các món ăn ngon tại Lamenda Café, mát-xa thư giãn tại Violet Spa và sân thượng tuyệt đẹp với hồ bơi và dịch vụ quầy bar.</p>
+                                    <a href="offersDetail.html" class="view__offers">Xem thêm</a>
+                                    <a href="" class="book-rooms">Đặt phòng ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list__offers">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers__image">
+                                    <img src="./images/offers-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 hotels__des">
+                                <div class="offers__des">
+                                    <h3>KHÁCH SẠN A&EM SAIGON</h3>
+                                    <p>Khách sạn 4 sao trang nhã tại thành phố này phục vụ các món ăn ngon tại Lamenda Café, mát-xa thư giãn tại Violet Spa và sân thượng tuyệt đẹp với hồ bơi và dịch vụ quầy bar.</p>
+                                    <a href="offersDetail.html" class="view__offers">Xem thêm</a>
+                                    <a href="" class="book-rooms">Đặt phòng ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--end hotels-->
+
+    <!--footer-->
+    <footer>
+        <div class="footer__top">
+            <div class="footer__logo">
+                <img src="./images/logo-footer.png" alt="">
+            </div>
+            <div class="m_width">
+                <div class="row center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__hotel">
+                            <ul class="footer__star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="footer__list__hotel">
+                                <li><a href="">Khách sạn A&EM Saigon</a></li>
+                                <li><a href="">Khách sạn A&EM Saigon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__hotel">
+                            <ul class="footer__star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="footer__list__hotel">
+                                <li><a href="">Khách sạn A&EM Saigon</a></li>
+                                <li><a href="">Khách sạn A&EM Saigon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__hotel">
+                            <ul class="footer__star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="footer__list__hotel">
+                                <li><a href="">Khách sạn A&EM Saigon</a></li>
+                                <li><a href="">Khách sạn A&EM Saigon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__social">
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="footer__links">
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="by">
+                        <li><a href="">by a-emhotel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+    <script src="./lib/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script src="./lib/js/style.js"></script>
+    <script src="./lib/js/slide.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
